@@ -1,0 +1,302 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  :root{
+    --primary : #0d6efd;
+  }
+  
+  /* =============== css for navbar  ============================ */
+  
+  .nav-category {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-height: 11%;
+    min-height: 11%;
+    border: 0.5px solid lightgray;
+  }
+  
+  .nabvar-weight {
+    max-height: 20%;
+    min-height: 20%;
+  }
+  
+  .nav-link {
+    color: white !important;
+    font-weight: bolder;
+    
+  }
+  
+  .navbar-nav *{
+    font-size: 0.7rem;
+  }
+  
+  .nav-item .login {
+    color: var(--primary) !important;
+    background-color: whitesmoke;
+    border-radius: 0;
+    width: 5rem;
+    margin-left: 8rem;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .nav-item {
+    margin-right: 2.5rem;
+  }
+  
+  .search-input {
+    width: 20rem !important;
+    border-radius: 0 !important;
+    border-color: white;
+  }
+  
+  .search-btn {
+    border-radius: 0 !important;
+    margin-right: 1.5rem;
+  }
+  
+  .bi-search {
+    color: var(--primary);
+  }
+  
+  #flogo {
+    margin-top: 0.1rem;
+    width: 4rem;
+  }
+  
+  .logo {
+    margin-right: 0;
+  }
+  
+  /* ==============   css for category   ============== */
+  
+  .category {
+    display: flex;
+    width: 70%;
+    max-height: 80%;
+    min-height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    padding-bottom: 00.7rem !important;
+  }
+  
+  
+  
+  .myCategory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12%;
+    /* padding-bottom: 00.7rem !important; */
+  }
+  
+  .myCategory > p{
+    font-size: 0.9rem;
+    
+  }
+  
+  .myCategory > img {
+    width: 50%;
+  }
+  
+  .dropdown {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cat-switch {
+    border: none;
+    background-color: inherit;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  /* ================  css for deal =============== */
+  
+  .deal-poster {
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 14.4rem;
+    min-height: 14.4rem;
+    margin-top: 2%;
+    align-items: flex-start;
+  }
+  
+  .deal-container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  
+    height: 14.4rem;
+    border: 0.5px solid lightgray;
+  }
+  
+  .deal-heading {
+    display: flex;
+    max-height: 15%;
+    min-height: 15%;
+    border-bottom: 0.5px solid lightgrey;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0 0.5rem;
+  }
+  .small-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .small-time > h5{
+      padding-right: 0.7rem;
+  }
+  .deal-heading > h5{
+    height: 50%;
+  } 
+  
+  .deal-heading > button , .books-heading > button{
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 0;
+    text-decoration: none;
+    height: 70%;
+    padding: 0 0.5rem;
+    /* padding: 0.5rem; */
+    font-size: 0.7rem;
+  }
+  
+  .small-text-time {
+    display: flex;
+    align-items: center;
+  }
+  
+  .deal-card {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 85%;
+    max-height: 85%;
+  }
+  
+  .deal-card p {
+    font-size: 0.7rem;
+  }
+  
+  
+  .small-books{
+  
+    display: flex;
+    flex-direction: column;
+  
+  
+  }
+  .myCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 13.5%;
+    max-height: 100%;
+    min-height: 100%;
+    align-items: center;
+  }
+  
+  .myCard > img {
+    max-height: 3.5rem;
+    min-height: 3.5rem;
+    width: 50%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .poster {
+    display: flex;
+    width: 15%;
+    height: 14.4rem;
+    padding: 0.3rem;
+  }
+  
+  .poster > img {
+    width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+  }
+  
+  /* ========= css for books&music container ==================== */
+  
+  .books-container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 39%;
+    min-height: 39%;
+    border: 0.5px solid lightgray;
+  }
+  
+  .books-heading {
+    display: flex;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid lightgray;
+    padding: 0 0.5rem;
+  }
+  
+  .books-heading > a {
+    text-decoration: none;
+    background-color: #2874f0;
+    color: white;
+  }
+  
+  .books-card {
+    display: flex;
+    height: 14.4rem;
+    width: 100%;
+    padding-left: 2rem;
+    align-items: center;
+  }
+  
+  .books-card *{
+    font-size: 0.7rem;
+  }
+  
+  .books-card > .myCard{
+    width: 9rem;
+  }
+  
+  .offer{
+    color: green;
+    font-size: 0.8rem;
+  }
+  
+  .navbar-nav *{
+    font-size: 0.7rem !important;
+  }
+  
+  /* @media screen and (max-width:720px) {
+    .myCard{
+      width: 25%;
+    }
+    .deal-card{
+      flex-wrap: wrap;
+    }
+  } */
